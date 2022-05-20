@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "plasma-range-343615-tfstate"
     prefix = "env/dev"
   }
 }
